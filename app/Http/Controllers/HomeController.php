@@ -37,4 +37,8 @@ class HomeController extends Controller
     {
         return view('frontend.durga-maa-stone-statues');
     }
+    public function human(Request $request)
+    {
+        return view('frontend.human-stone-statues');
+    }
 }

@@ -24,12 +24,13 @@ use Illuminate\Support\Facades\Route;
 //     echo "hello wworld";exit;
 // });
 
-Route::get('frontend/home',[HomeController::class,'index']);
+Route::get('/home',[HomeController::class,'index']);
 Route::get('/contactus',[HomeController::class,'contact']);
 Route::get('/aboutus',[HomeController::class,'about']);
 Route::get('/radha-krishna-statues',[HomeController::class,'radha']);
 Route::get('/hanumanji-statues',[HomeController::class,'hanumanji']);
 Route::get('/durga-maa-stone-statues',[HomeController::class,'durga']);
+Route::get('/human-stone-statues',[HomeController::class,'human']);
 
 
 Route::get('admin',[AdminController::class,'index']);

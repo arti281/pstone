@@ -2,11 +2,11 @@
 @section('content')
   <!-- catg header banner section -->
   <section id="aa-catg-head-banner">
-   <img src="{{asset('pstone_assets/img/banners/maa-durga-banner.jpg')}}" alt="fashion img">
+   <img src="{{asset('pstone_assets/img/banners/hanumanji-banners.jpg')}}" alt="fashion img">
    <div class="aa-catg-head-banner-area">
      <div class="container">
       <div class="aa-catg-head-banner-content">
-        <h2>Maa Durga</h2>
+        <h2>Hanumanji</h2>
         <ol class="breadcrumb">
           <li><a href="/">Home</a></li>         
           <li class="active">Stone Statues</li>
@@ -53,7 +53,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">This is Title</a></h4>
@@ -72,7 +72,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji1.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji2.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -91,7 +91,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji2.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji3.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -108,7 +108,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji3.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji4.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -127,7 +127,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji4.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji5.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -144,7 +144,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji5.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji6.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -161,7 +161,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji6.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji7.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -180,7 +180,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji7.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji8.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -199,7 +199,7 @@
                  <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji8.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji9.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">This is Title</a></h4>
@@ -218,7 +218,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji9.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji10.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -237,7 +237,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji10.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji11.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -254,7 +254,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji11.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji12.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -273,7 +273,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji12.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji13.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -291,7 +291,7 @@
                 <!-- start single product item -->
                 <li>
                   <figure>
-                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/durgaji/durgaji4.png')}}" alt="polo shirt img"></a>
+                    <a class="aa-product-img" href="#"><img src="{{asset('pstone_assets/img/hanumanji/hanumanji14.png')}}" alt="polo shirt img"></a>
                     <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add To Cart</a>
                     <figcaption>
                       <h4 class="aa-product-title"><a href="#">Lorem ipsum doller</a></h4>
@@ -340,21 +340,21 @@
               <div class="aa-recently-views">
                 <ul>
                   <li>
-                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/durgaji.jpg')}}"></a>
+                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/hanumanji/hanumanji14.png')}}"></a>
                     <div class="aa-cartbox-info">
                       <h4><a href="#">Product Name</a></h4>
                       <p>1 x $250</p>
                     </div>                    
                   </li>
                   <li>
-                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/durgaji1.jpg')}}"></a>
+                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/hanumanji/hanumanji13.png')}}"></a>
                     <div class="aa-cartbox-info">
                       <h4><a href="#">Product Name</a></h4>
                       <p>1 x $250</p>
                     </div>                    
                   </li>
                    <li>
-                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/durgaji2.jpg')}}"></a>
+                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/hanumanji/hanumanji12.png')}}"></a>
                     <div class="aa-cartbox-info">
                       <h4><a href="#">Product Name</a></h4>
                       <p>1 x $250</p>
@@ -369,21 +369,21 @@
               <div class="aa-recently-views">
                 <ul>
                   <li>
-                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/durgaji2.jpg')}}"></a>
+                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/hanumanji/hanumanji11.png')}}"></a>
                     <div class="aa-cartbox-info">
                       <h4><a href="#">Product Name</a></h4>
                       <p>1 x $250</p>
                     </div>                    
                   </li>
                   <li>
-                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/durgaji4.jpg')}}"></a>
+                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/hanumanji/hanumanji10.png')}}"></a>
                     <div class="aa-cartbox-info">
                       <h4><a href="#">Product Name</a></h4>
                       <p>1 x $250</p>
                     </div>                    
                   </li>
                    <li>
-                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/durgaji1.jpg')}}"></a>
+                    <a href="#" class="aa-cartbox-img"><img alt="img" src="{{asset('pstone_assets/img/hanumanji/hanumanji9.png')}}"></a>
                     <div class="aa-cartbox-info">
                       <h4><a href="#">Product Name</a></h4>
                       <p>1 x $250</p>

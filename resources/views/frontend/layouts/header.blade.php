@@ -125,7 +125,7 @@
               <!-- logo  -->
               <div class="aa-logo">
                 <!-- Text based logo -->
-                <a href="index.html">
+                <a href="/home">
                <img src="{{asset('pstone_assets/img/pstone.png')}}" height="80" width="80" alt="">
                 </a>
                 <!-- img based logo -->
@@ -203,19 +203,30 @@
           <div class="navbar-collapse collapse">
             <!-- Left nav -->
             <ul class="nav navbar-nav">
-              <li><a href="/">Home</a></li>
+              <li><a href="/home">Home</a></li>
               <li><a href="/aboutus">About Us</a></li>
-              <li><a href="/radha-krishna-statues">Radha Krishna Statues <span class="caret"></span></a>
+              <li><a href="/radha-krishna-statues">Radha Krishna Statues </a>
                 
               </li>
-              <li><a href="/hanumanji-statues">Hanumanji Statues <span class="caret"></span></a>
+              <li><a href="/hanumanji-statues">Hanumanji Statues </a>
                 
               </li>
-              <li><a href="/durga-maa-stone-statues">Durga Stone Statues <span class="caret"></span></a>
+              <li><a href="/durga-maa-stone-statues">Durga Stone Statues </a>
       
               </li>
               <li><a href="/human-stone-statues">Human Statues</a></li>
-              <!-- <li><a href="/services">Services</a></li>             -->
+              <li><a href="/stone-statues">Other Statues<span class="caret"></span></a>
+              <ul class="dropdown-menu">  
+                  <li><a href="ram-darbar-statues">Ram Darbar Statues</a></li>                                                                
+                  <li><a href="shiv-darbar-statues">Shiv Parivar Statues</a></li>              
+                  <li><a href="ganeshji-statues">Ganeshji Statues</a></li>
+                  <li><a href="vishnu-laxmi-statues">Vishnu Laxmi Statues</a></li>
+                  <li><a href="sarswati-mata-statues">Sarswati Mata Statues</a></li>                
+                  <li><a href="shivji-statues">Shivji Statues</a></li>
+                  <li><a href="brahma-statues">Brahma Statues</a></li>
+                  <li><a href="/stone-statues">And more.. <span class="caret"></span></a>
+            </ul>
+            </li>            
               <li><a href="/contactus">Contact</a></li>
           </div><!--/.nav-collapse -->
         </div>
