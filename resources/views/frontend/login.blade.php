@@ -3,14 +3,14 @@
 
   <!-- catg header banner section -->
   <section id="aa-catg-head-banner">
-   <img src="{{asset('pstone_assets/img/banners/aboutus.jpg')}}" alt="fashion img">
+   <img src="{{asset('pstone_assets/img/banners/contactus.jpg')}}" alt="fashion img">
    <div class="aa-catg-head-banner-area">
      <div class="container">
       <div class="aa-catg-head-banner-content">
-        <h2>About Us</h2>
+        <h2>Contact</h2>
         <ol class="breadcrumb">
-          <li><a href="/home">Home</a></li>         
-          <li class="active">About</li>
+          <li><a href="index.html">Home</a></li>         
+          <li class="active">Contact</li>
         </ol>
       </div>
      </div>

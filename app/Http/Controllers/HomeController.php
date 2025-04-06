@@ -21,6 +21,24 @@ class HomeController extends Controller
     {
         return view('frontend.contactus');
     }
+
+    public function account(Request $request)
+    {
+        return view('frontend.account');
+    }
+    public function wishlist(Request $request)
+    {
+        return view('frontend.wishlist');
+    }
+    public function cart(Request $request)
+    {
+        return view('frontend.cart');
+    }
+    public function checkout(Request $request)
+    {
+        return view('frontend.checkout');
+    }
+    
     public function about(Request $request)
     {
         return view('frontend.aboutus');

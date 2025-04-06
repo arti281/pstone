@@ -31,6 +31,10 @@ Route::get('/radha-krishna-statues',[HomeController::class,'radha']);
 Route::get('/hanumanji-statues',[HomeController::class,'hanumanji']);
 Route::get('/durga-maa-stone-statues',[HomeController::class,'durga']);
 Route::get('/human-stone-statues',[HomeController::class,'human']);
+Route::get('/account',[HomeController::class,'account']);
+Route::get('/wishlist',[HomeController::class,'wishlist']);
+Route::get('/cart',[HomeController::class,'cart']);
+Route::get('/checkout',[HomeController::class,'checkout']);
 
 
 Route::get('admin',[AdminController::class,'index']);

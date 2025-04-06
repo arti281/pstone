@@ -102,7 +102,7 @@
               <!-- / header top left -->
               <div class="aa-header-top-right">
                 <ul class="aa-head-top-nav-right">
-                  <li><a href="account.html">My Account</a></li>
+                  <li><a href="/account">My Account</a></li>
                   <li class="hidden-xs"><a href="/wishlist">Wishlist</a></li>
                   <li class="hidden-xs"><a href="/cart">My Cart</a></li>
                   <li class="hidden-xs"><a href="/checkout">Checkout</a></li>
@@ -134,9 +134,9 @@
               <!-- / logo  -->
                <!-- cart box -->
               <div class="aa-cartbox">
-                <a class="aa-cart-link" href="#">
+                <a class="aa-cart-link" href="/cart">
                   <span class="fa fa-shopping-basket"></span>
-                  <span class="aa-cart-title">SHOPPING CART</span>
+                  <!-- <span class="aa-cart-title">SHOPPING CART</span>-->
                   <span class="aa-cart-notify">2</span>
                 </a>
                 <div class="aa-cartbox-summary">
@@ -215,7 +215,7 @@
       
               </li>
               <li><a href="/human-stone-statues">Human Statues</a></li>
-              <li><a href="/stone-statues">Other Statues<span class="caret"></span></a>
+              <li><a href="/stone-statues">Statues<span class="caret"></span></a>
               <ul class="dropdown-menu">  
                   <li><a href="ram-darbar-statues">Ram Darbar Statues</a></li>                                                                
                   <li><a href="shiv-darbar-statues">Shiv Parivar Statues</a></li>              
@@ -293,13 +293,13 @@
                     <address>
                       <p> Govindgard Road, Sikri,Deeg (Rajasthan) - 321024</p>
                       <p><span class="fa fa-phone"></span>+91-9828331730</p>
-                      <p><span class="fa fa-envelope"></span>pstonearts02@gmail.com</p>
+                      <p><span class="fa fa-envelope"></span>support@pstonearts.com</p>
                     </address>
                     <div class="aa-footer-social">
-                      <a href="#"><span class="fa fa-facebook"></span></a>
-                      <a href="#"><span class="fa fa-twitter"></span></a>
-                      <a href="#"><span class="fa fa-google-plus"></span></a>
-                      <a href="#"><span class="fa fa-youtube"></span></a>
+                      <a href="https://www.facebook.com/Pstonestatues"><span class="fa fa-facebook"></span></a>
+                      <a href="https://www.instagram.com/official_pstonearts/"><span class="fa fa-instagram"></span></a>
+                      <a href="#"><span class="fa fa-linkedin"></span></a>
+                      <a href="https://www.youtube.com/@pstonearts267"><span class="fa fa-youtube"></span></a>
                     </div>
                   </div>
                 </div>
@@ -347,7 +347,7 @@
             <label for="rememberme" class="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
             <p class="aa-lost-password"><a href="#">Lost your password?</a></p>
             <div class="aa-register-now">
-              Don't have an account?<a href="account.html">Register now!</a>
+              Don't have an account?<a href="/account">Register now!</a>
             </div>
           </form>
         </div>                        

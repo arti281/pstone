@@ -8,7 +8,7 @@
       <div class="aa-catg-head-banner-content">
         <h2>Maa Durga</h2>
         <ol class="breadcrumb">
-          <li><a href="/">Home</a></li>         
+          <li><a href="/home">Home</a></li>         
           <li class="active">Stone Statues</li>
         </ol>
       </div>
