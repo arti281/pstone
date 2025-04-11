@@ -27,15 +27,17 @@
               <div class="col-md-6">
                 <div class="aa-myaccount-login">
                 <h4>User Registration</h4>
-                 <form action="{{ route('user.login') }}" method="POST" class="aa-login-form">
+                 <form action="{{ route('user.register') }}" method="POST" class="aa-login-form">
                  @csrf
+                 <label for="">Name<span>*</span></label>
+                 <input type="text" name="name" placeholder="User Name">
                   <label for="">Email<span>*</span></label>
                    <input type="text" name="email" placeholder="User Email">
                    <label for="">Password<span>*</span></label>
                     <input type="password" name="password" placeholder="Password">
                     <button type="submit" value="" class="aa-browse-btn">Login</button>
-                    <!-- <label class="rememberme" for="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
-                    <p class="aa-lost-password"><a href="#">Lost your password?</a></p> -->
+                    <label class="rememberme" for="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
+                    <p class="aa-lost-password"><a href="#">Lost your password?</a></p>
                   </form>
                 </div>
               </div>

@@ -33,42 +33,44 @@
            </div>
            <!-- Contact address -->
            <div class="aa-contact-address">
+           @if(session('success'))
+        <p style="color: green;">{{ session('success') }}</p>
+           @endif
              <div class="row">
                <div class="col-md-8">
                  <div class="aa-contact-address-left">
-                   <form class="comments-form contact-form" action="">
-                    <div class="row">
+                   <form class="comments-form contact-form" action="{{ route('contact.submit') }}" method="POST">
+                   @csrf 
+                   <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">                        
-                          <input type="text" placeholder="Your Name" class="form-control">
+                          <input type="text" placeholder="Name" name="name" class="form-control" required>
                         </div>
                       </div>
                     </div>
                     <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">                        
-                          <input type="email" placeholder="Email" class="form-control">
+                          <input type="email" name="email" placeholder="Email" class="form-control" required>
                         </div>
                       </div>
            </div>
                      <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">                        
-                          <input type="num" placeholder="Mobile" class="form-control">
+                          <input type="number" name="phone" placeholder="Mobile" class="form-control" required>
                         </div>
                       </div>
                     </div>
                   <div class="row">
-                   <div class="col-md-6">
                     <div class="form-group">                        
-                      <textarea class="form-control" type="textarea" placeholder="Message"></textarea>
-                    </div>
+                      <textarea class="form-control" name="message" type="textarea" placeholder="Message" required></textarea>
                    </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6">
                     <div class="form-group">  
-                  <button class="aa-secondary-btn">Submit</button>
+                  <button class="aa-secondary-btn" value="send">Submit</button>
            </div>
            </div>
            </div>

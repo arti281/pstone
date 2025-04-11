@@ -7,6 +7,9 @@ use App\Http\Controllers\SizeController;
 use App\Http\Controllers\ColorController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CartController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,7 +28,6 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/home',[HomeController::class,'index']);
-Route::get('/contactus',[HomeController::class,'contact']);
 Route::get('/aboutus',[HomeController::class,'about']);
 Route::get('/radha-krishna-statues',[HomeController::class,'radha']);
 Route::get('/hanumanji-statues',[HomeController::class,'hanumanji']);
@@ -33,9 +35,33 @@ Route::get('/durga-maa-stone-statues',[HomeController::class,'durga']);
 Route::get('/human-stone-statues',[HomeController::class,'human']);
 Route::get('/account',[HomeController::class,'account']);
 Route::get('/wishlist',[HomeController::class,'wishlist']);
-Route::get('/cart',[HomeController::class,'cart']);
 Route::get('/checkout',[HomeController::class,'checkout']);
 
+//Registration
+Route::get ('/login', function () {
+    return view('login');
+})->name('login');
+
+Route::get('/logout', function () {
+    Session::forget('user');
+    return redirect('login');
+});
+
+Route::get('/registration',[UserController::class,'index']);
+Route::post('/login', [UserController::class, 'login'])->name('user.login');
+Route::post("/registration",[UserController::class,'register'])->name('user.register');
+
+//for cart
+
+Route::get('/cart', [CartController::class, 'index'])->name('cart.index');
+Route::post('/cart/add', [CartController::class, 'add'])->name('cart.add');
+Route::post('/cart/remove', [CartController::class, 'remove'])->name('cart.remove');
+
+// contact us
+Route::get('/contactus', [ContactController::class, 'index'])->name('contact');
+Route::post('/contactus', [ContactController::class, 'submit'])->name('contact.submit');
+
+// for admin panel
 
 Route::get('admin',[AdminController::class,'index']);
 Route::post('admin/auth',[AdminController::class,'auth'])->name('admin.auth');

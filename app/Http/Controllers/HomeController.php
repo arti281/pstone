@@ -16,12 +16,6 @@ class HomeController extends Controller
     {
         return view('frontend.home');
     }
-
-    public function contact(Request $request)
-    {
-        return view('frontend.contactus');
-    }
-
     public function account(Request $request)
     {
         return view('frontend.account');
@@ -30,15 +24,14 @@ class HomeController extends Controller
     {
         return view('frontend.wishlist');
     }
-    public function cart(Request $request)
-    {
-        return view('frontend.cart');
-    }
     public function checkout(Request $request)
     {
         return view('frontend.checkout');
     }
-    
+    public function register(Request $request)
+    {
+        return view('frontend.registration');
+    }
     public function about(Request $request)
     {
         return view('frontend.aboutus');

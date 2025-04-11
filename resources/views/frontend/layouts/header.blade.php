@@ -102,11 +102,11 @@
               <!-- / header top left -->
               <div class="aa-header-top-right">
                 <ul class="aa-head-top-nav-right">
-                  <li><a href="/account">My Account</a></li>
+                  <li><a href="/registration">Register</a></li>
                   <li class="hidden-xs"><a href="/wishlist">Wishlist</a></li>
                   <li class="hidden-xs"><a href="/cart">My Cart</a></li>
                   <li class="hidden-xs"><a href="/checkout">Checkout</a></li>
-                  <li><a href="" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                  <li><a href="/login" data-toggle="modal" data-target="#login-modal">Login</a></li>
                 </ul>
               </div>
             </div>
@@ -298,7 +298,7 @@
                     <div class="aa-footer-social">
                       <a href="https://www.facebook.com/Pstonestatues"><span class="fa fa-facebook"></span></a>
                       <a href="https://www.instagram.com/official_pstonearts/"><span class="fa fa-instagram"></span></a>
-                      <a href="#"><span class="fa fa-linkedin"></span></a>
+                      <a href="https://www.linkedin.com/in/offical-pstone-arts/"><span class="fa fa-linkedin"></span></a>
                       <a href="https://www.youtube.com/@pstonearts267"><span class="fa fa-youtube"></span></a>
                     </div>
                   </div>
